@@ -1,0 +1,14 @@
+/*
+Theme Name: Saaz Restaurants
+Theme email: deeps_arora262@gmail.com
+Description:  Saaz Restaurant south Hampton
+Version: 3.2
+Author: Deepak Arora
+Author URI: deeps_arora262@gmail.com
+Restaurants:Indian Restaurant,Curry club, medowclub 
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
+
+.container { width: @container-desktop !important; };

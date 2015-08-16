@@ -1,0 +1,126 @@
+
+
+#nav-drop {
+	margin-left:50px;
+}
+
+
+
+#navbar>li {
+	display:inline;
+	float:left;
+	margin-left:30px;
+
+}
+#navbar>ul>li>a{
+	color:#fff;
+	text-shadow:0 0 2px rgba(0,0,0,0.4);
+}
+#navbar>li>a:hover {
+	background:none;
+}
+#navbar {
+	margin-top:105px;
+    background: none;
+border: none;
+box-shadow: none;
+
+}
+#navbar .active>a {
+	background:none;
+}
+
+#navbar>li a.dropdown-toggle {
+	background:none;
+}
+#navbar>li>ul.dropdown-menu {
+	border-top:2px solid #3e3433;
+	margin-top:15px;
+}
+
+/************ bootstrap navigation -->
+/*
+Navbar "hovernav" dropdown menu - this works only for screen sizes larger than phones.
+The Bootstrap CSS is unchanged.
+*/
+nav a {
+	text-decoration:none;
+}
+nav>ul>li {
+	float:left;
+	margin-left:30px;
+}
+
+.navbar-nav>li {
+	margin-left:40px;
+}
+#navbar .navbar-default .navbar-nav>li>a {
+	color:#fff;
+}
+#nav-1 li a {
+	color:#fff;
+}
+#navbar a {
+	text-transform: capitalize;
+}
+
+/******** dropdown ****************/
+ #menu-bootstrap_menu li a{
+    color:#fff;
+    text-shadow:0 0 1px rgba(0,0,0,0.7);
+	font-family: 'Merriweather', serif;
+ }
+#menu-bootstrap_menu>li>ul>li {
+	color:#000;
+ border-bottom:1px solid #3e3433;
+
+}
+#menu-bootstrap_menu>li>ul>li>a {
+	color:#000;
+}
+
+#menu-bootstrap_menu>li>ul>li:last-child {
+	border:none;
+}
+#menu-bootstrap_menu>li>ul {
+	border-top:3px solid #3e3433;
+   opacity:0.8;
+}
+
+ #dropdown {
+   border-top:3px solid #3e3433;
+   opacity:0.8;
+ }
+ #dropdown li {
+ border-bottom:1px solid #3e3433;
+ }
+ #dropdown li:last-child {
+ border:none;
+ }
+#dropdown  li a {
+	color:#3e3433;
+}
+#navbar .navbar-nav>.open>a, #navbar .navbar-nav>.open>a:hover, #navbar .navbar-nav>.open>a:focus {
+	background:none;
+}
+@media all and (max-width: 1000px) {
+#menu-bootstrap_menu li {
+	margin-left:10px;
+}
+#menu-bootstrap_menu li:last-child {
+	display:none;
+}
+}
+@media all and (max-width:767px){
+	#menu-bootstrap_menu {
+	background:#372d2b;
+	width:440px;
+	margin-left:130px;
+	}
+	.navbar-toggle {
+	border:none;
+	}
+	#menu-bootstrap_menu>li>ul>li>a {
+	color:#fff;
+	}
+}

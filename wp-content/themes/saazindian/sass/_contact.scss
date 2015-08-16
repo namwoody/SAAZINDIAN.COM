@@ -1,0 +1,21 @@
+/**
+ * contact css
+ */
+
+#contact_heading h2 {
+	font-family: 'Merriweather', serif;
+	text-shadow :0 0 2px rgba(0,0,0,0.7);
+	border-bottom:1px dotted #372d2b;
+}
+#required {
+	content:'*';
+	color:red;
+}
+#contact_page {
+	box-shadow:0 1px 5px rgba(0,0,0,0.7);
+
+}
+#contact_page_h2 {
+	font-family: 'Merriweather', serif;
+	text-shadow :0 0 2px rgba(0,0,0,0.7);
+}
